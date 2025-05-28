@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { assets } from "../../assets/assets";
 import "./main.css";
-import { Context } from "../../context/context";
+import { Context } from "../../context/Context.jsx";
 const Main = () => {
 	const {
 		onSent,
